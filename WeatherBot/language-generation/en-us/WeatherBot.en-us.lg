@@ -1,0 +1,37 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Bienvenido
+# SendActivity_LWm0eu()
+[Activity
+    Text = ${SendActivity_LWm0eu_text()}
+]
+
+# SendActivity_LWm0eu_text()
+- Hi! I'm WeatherBot.
+# TextInput_Prompt_0L1vD2()
+[Activity
+    Text = ${TextInput_Prompt_0L1vD2_text()}
+]
+
+# TextInput_Prompt_0L1vD2_text()
+- What is your name?
+# SendActivity_sIxBsH()
+[Activity
+    Text = ${SendActivity_sIxBsH_text()}
+]
+
+# SendActivity_sIxBsH_text()
+- Hello ${user.name}, nice to meet you!
+# SendActivity_VLFIJJ()
+[Activity
+    Text = ${SendActivity_VLFIJJ_text()}
+]
+
+# SendActivity_VLFIJJ_text()
+- OK. Whenever you're ready, you can ask me about the weather.
